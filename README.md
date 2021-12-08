@@ -1,5 +1,5 @@
-# mosyleNotify
- Use Mosyle, Installomator, and DEP Notify together.
+# mdmNotify
+A generic script to use DEP Notify, an MDM (like Mosyle), and Installomator for initial Mac deployment with user feedback on screen.
 
 This script is basically in alpha stage right now.
 
