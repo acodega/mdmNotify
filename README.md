@@ -23,3 +23,4 @@ When Installomator finishes running that label, DEP Notify will advance the prog
 To do:
 1. Add logic for if Installomator is installed, and install it if needed.
 2. Install DEP Notify via Installomator before running DEP Notify.
+3. As a last resort, if it all goes wrong for some reason, fall back and display an AppleScript notification notifying the user to contact IT support.
