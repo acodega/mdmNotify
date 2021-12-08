@@ -1,12 +1,13 @@
 #!/bin/bash
 
-# mosyleNotify.sh
+# mdmNotify.sh
 #
-# Use DEP Notify with Mosyle and Installomator
+# A generic script to use DEP Notify, an MDM, and Installomator
+#
 # This requires a fair amount of customizing based on the
 # enrollment workflow, but is fairly easy to do so.
 # Many of the variables in this script, like TESTING_MODE,
-# are used when running DEP Notify itself.
+# are used when DEP Notify runs.
 #
 
 TESTING_MODE=false
