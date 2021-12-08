@@ -3,6 +3,7 @@
 # mdmNotify.sh
 #
 # A generic script to use DEP Notify, an MDM, and Installomator
+# for initial Mac deployment with user feedback on screen.
 #
 # This requires a fair amount of customizing based on the
 # enrollment workflow, but is fairly easy to do so.
