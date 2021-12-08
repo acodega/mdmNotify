@@ -19,3 +19,7 @@ Core functionality comes at the policy array function:
 `Installing Chrome` is the text that will be displayed above the DEP Notify progress bar, and `googlechrome` is the label Installomator will use.
 
 When Installomator finishes running that label, DEP Notify will advance the progress bar, update the text, and run Installomator again with the next label.
+
+To do:
+Add logic for if Installomator is installed, and install it if needed.
+Install DEP Notify via Installomator before running DEP Notify.
