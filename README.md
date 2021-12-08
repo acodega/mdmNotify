@@ -7,7 +7,7 @@ This script is basically in alpha stage right now.
 
 The script requires DEP Notify and Installomator to already be installed. Future logic will be added to handle waiting or self installing those components.
 
-Core functionality comes at line 77:
+Core functionality comes at the policy array function:
 
 ```POLICY_ARRAY=(
     "Installing Chrome,googlechrome"
