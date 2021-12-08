@@ -21,5 +21,5 @@ Core functionality comes at the policy array function:
 When Installomator finishes running that label, DEP Notify will advance the progress bar, update the text, and run Installomator again with the next label.
 
 To do:
-Add logic for if Installomator is installed, and install it if needed.
-Install DEP Notify via Installomator before running DEP Notify.
+1. Add logic for if Installomator is installed, and install it if needed.
+2. Install DEP Notify via Installomator before running DEP Notify.
