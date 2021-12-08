@@ -3,7 +3,7 @@ A generic script to use DEP Notify, an MDM (like Mosyle), and Installomator for 
 
 mdmNotify is based off of [Jamf's DEP Notify Starter script](https://github.com/jamf/DEPNotify-Starter).
 
-This script is basically in alpha stage right now.
+This script is basically in alpha stage right now. It "works" to the extent that it runs when called with sudo from Terminal on a Mac with DEP Notify and Installomator already installed. Although the script does open DEP Notify as the logged in user, so arguably it's ready to be tested with MDM, which runs scripts as a different user.
 
 The script requires DEP Notify and Installomator to already be installed. Future logic will be added to handle waiting or self installing those components.
 
