@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#
 # mdmNotify.sh
 #
 # A generic script to use DEP Notify, an MDM, and Installomator
@@ -11,7 +12,7 @@
 # are used when DEP Notify runs.
 #
 
-TESTING_MODE=false
+TESTING_MODE=true
 
 FULLSCREEN=false
 
