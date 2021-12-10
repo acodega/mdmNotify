@@ -17,6 +17,9 @@ TESTING_MODE=true
 FULLSCREEN=false
 
 # Banner image can be 600px wide by 100px high. Images will be scaled to fit
+# By default this is the app icon for Mosyle Business Self-Service
+# You can use default macOS icons like /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/FinderIcon.icns
+# or the cool Mac model specific icons in that folder
 BANNER_IMAGE_PATH="/Applications/Self-Service.app/Contents/Resources/AppIcon.icns"
 
 ORG_NAME="Contoso Inc"
@@ -310,7 +313,7 @@ POLICY_ARRAY=(
     if [ "$TESTING_MODE" = true ]; then
       sleep 10
     elif [ "$TESTING_MODE" = false ]; then
-      "$INST_BINARY" "$(echo "$POLICY" | cut -d ',' -f2)"
+      "$INST_BINARY" NOTIFY=silent "$(echo "$POLICY" | cut -d ',' -f2)"
     fi
   done
 
