@@ -9,7 +9,8 @@ The script requires DEP Notify and Installomator to already be installed. Future
 
 Core functionality comes at the policy array function:
 
-```POLICY_ARRAY=(
+```
+POLICY_ARRAY=(
     "Installing Chrome,googlechrome"
     "Installing Firefox,firefox"
     "Installing Zoom,zoom"
