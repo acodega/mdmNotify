@@ -1,4 +1,6 @@
 # mdmNotify
+This repo has been archived. The project was quickly made redundant by [Dialog](https://github.com/bartreardon/Dialog)'s Lists feature, which allows you to show a list of apps and check them off when Installomator finishes installing them. There's a [demo Installomator script](https://github.com/bartreardon/Dialog-scripts/tree/main/Lists). I also have a [Dialog Lists example script](https://github.com/acodega/dialog-scripts) to handle apps being installed in random order, for example by Mosyle's App Catalog or VPP, and not by the script itself.
+
 A generic script to use DEP Notify, an MDM (like Mosyle), and Installomator for initial Mac deployment with user feedback on screen.
 
 mdmNotify is based off of [Jamf's DEP Notify Starter script](https://github.com/jamf/DEPNotify-Starter).
